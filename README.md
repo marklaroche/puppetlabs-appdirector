@@ -4,7 +4,7 @@
 
 ## Overview
 
-Puppet Labs provides an integration solution for [VMware® vFabric™ Application Director™](http://www.vmware.com/products/application-platform/vfabric-application-director/overview.html). The Puppet service enables Application Director customers to deploy applications via Puppet manifests or deploy vFabric Application Director blueprints using existing Puppet modules available on the [Puppet Forge](http://forge.puppetlabs.com/). The solution leverages the vFabric Application Director management console to configure Puppet classes and utilize Puppet Forge modules to deploy services and create vFabric Application Director blueprints.
+Puppet Labs provides an integration solution for [VMware vFabric Application Director](http://www.vmware.com/products/application-platform/vfabric-application-director/overview.html). The Puppet service enables Application Director customers to deploy applications via Puppet manifests or deploy vFabric Application Director blueprints using existing Puppet modules available on the [Puppet Forge](http://forge.puppetlabs.com/). The solution leverages the vFabric Application Director management console to configure Puppet classes and utilize Puppet Forge modules to deploy services and create vFabric Application Director blueprints.
 
 ## Puppet Modules as vFabric Application Director Blueprints
 
@@ -17,7 +17,7 @@ Deploying Puppet modules as blueprints in vFabric Application Director environme
 
 ## Module Installation
 
-The (github repo)[https://github.com/puppetlabs/puppetlabs-appdirector.git] needs to be installed on the client accessing the vFabric Application Director management console. The repo provides example scripts, as well as a translation utility to map Puppet modules to vFabric Application Director compatible service scripts.
+The [github repo](https://github.com/puppetlabs/puppetlabs-appdirector.git) needs to be installed on the client accessing the vFabric Application Director management console. The repo provides example scripts, as well as a translation utility to map Puppet modules to vFabric Application Director compatible service scripts.
 
 Requirements:
 
@@ -26,7 +26,7 @@ Requirements:
 
 Installation:
 
-* git clone https://github.com/puppetlabs/puppetlabs-appdirector.git
+* puppet module install puppetlabs/appdirector
 
 ## Puppet Service
 
